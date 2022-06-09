@@ -194,48 +194,11 @@ p {
 	margin: 30px 0;
 }
 
-
 strong {
 	font-weight: 700;
 }
 
 
-@media screen and (max-width: 720px) {
-	h1 {
-		font-size: 24px;
-	}
-
-
-	h2 {
-		font-size: 20px;
-	}
-
-
-	h3 {
-		font-size: 18px;
-	}
-
-
-	h4 {
-		font-size: 14px;
-	}
-
-
-	h5 {
-		font-size: 12px;
-	}
-
-
-	h6 {
-		font-size: 13px;
-	}
-
-
-	p {
-		margin: 20px 0;
-	}
-
-}
 
 /* - Links */
 a {
@@ -252,21 +215,6 @@ a:hover {
 
 
 /* - Buttons */
-.animated-button {
-	position: relative;
-	top: -1px;
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 16px;
-}
-
-.animated-button span {
-	position: relative;
-	overflow: hidden;
-	display: block;
-	text-shadow: 0 16px 0 #06a1e9;
-}
-
 a.btn,
 .btn,
 .single-post-text input[type="submit"],
@@ -304,12 +252,6 @@ button:hover {
 	border-color: #06a1e9;
 }
 
-a.btn:hover .animated-button em,
-.btn:hover .animated-button em,
-.single-post-text input[type="submit"]:hover .animated-button em,
-button:hover .animated-button em {
-	transform: translateY(calc(16px * -1));
-}
 
 a.btn:hover .icon,
 .btn:hover .icon,
